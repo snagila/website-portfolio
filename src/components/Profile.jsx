@@ -16,14 +16,26 @@ const Profile = () => {
         <div className="section__text">
           <p className="section__text__p1">Hello, I'm</p>
           <h1 className="title">Sachin Nagila</h1>
-          <p className="section__text__p2">Frontend Developer</p>
+          <p className="section__text__p2">Full Stack Developer</p>
           <div className="btn-container">
             <button className="btn btn-color-2">Download CV</button>
             <button className="btn btn-color-1">Contact Info</button>
           </div>
           <div id="socials-container">
-            <img src={linkedin} alt="My LinkedIn profile" className="icon" />
-            <img src={gitHub} alt="My Github profile" className="icon" />
+            <a
+              href="https://www.linkedin.com/in/sachinnagila/"
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedin} alt="My LinkedIn profile" className="icon " />
+            </a>
+            <a
+              href="https://github.com/snagila"
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              <img src={gitHub} alt="My Github profile" className="icon " />
+            </a>
           </div>
         </div>
       </section>

@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <>
       <nav id="desktop-nav">
-        <div className="logo">John Doe</div>
+        <div className="logo">Sachin Nagila</div>
         <div>
           <ul className="nav-links">
             <li>

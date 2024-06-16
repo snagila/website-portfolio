@@ -63,7 +63,7 @@ nav {
 }
 
 .logo:hover {
-  cursor: default;
+  cursor: pointer;
 }
 
 /* HAMBURGER MENU */
@@ -175,9 +175,6 @@ section {
   width: 400px;
   border-radius: 50%;
   margin: auto 0;
-}
-.section__pic-container .img {
-  border-radius: 30px;
 }
 
 .section__text {
